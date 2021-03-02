@@ -61,7 +61,7 @@ Running the script on a single CSV file.
 - On terminal, running convert.py by typing `python convert.py -i [INPUT_FILE] -o [OUTPUT_JSON_FOLDER] -t [OUTPUT_META_DATA_FOLDER]`(Below shows the example of command to process the `catch+256@umd.edu.csv` from the [Step 5](#Step-5) directory, and outputs the files to the folder created in [Step 4](#Step-4))
 
 ![jupyter_script](./assets/jupyter_script.png)
-**Note: The program will ignore files that are less than 77 bytes and invalid CSV files while running**
+**NOTE: The program will ignore files that are less than 77 bytes and invalid CSV files while running**
 
 ### Step 7:
 Running the script on a directory.
@@ -72,11 +72,11 @@ Running the script on a directory.
 ### Step 8:
 Checking the output directory.
 - Changing directory to the output folder specific from [Step 6](#Step-6), the directory tree would be like the following:
-    - /output
-        - 2019-08-25 (created based on the date of input data)
-            - /json
-            - /metadata
-            - invalid_file.txt(It appears if error occurs in the specified input directory)
+    - */output*
+        - *2019-08-25 (created based on the date of input data)*
+            - */json*
+            - */metadata*
+            - *invalid_file.txt(It appears if error occurs in the specified input directory)*
 
 ![jupyter_output](./assets/jupyter_output.png)
 
@@ -100,5 +100,6 @@ Shuting down the running process on the server.
 
 ![jupyter_shut](./assets/jupyter_shut.png)
 
+**Caution: The server would be slown down if a lot of the program are running after use without terminated.**
 
 
