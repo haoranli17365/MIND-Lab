@@ -76,7 +76,7 @@ Checking the output directory.
         - *2019-08-25 (created based on the date of input data)*
             - */json*
             - */metadata*
-            - *invalid_file.txt(It appears if error occurs in the specified input directory)*
+            - *invalid_file.txt (It appears if error occurs in the specified input directory)*
 
 ![jupyter_output](./assets/jupyter_output.png)
 
@@ -94,7 +94,7 @@ Checking the Comma-separated invalid text file if there is one.(Below is an exam
 ![jupyter_invalid](./assets/jupyter_invalid.png)
 
 ### Step 10:
-Shuting down the running process on the server.
+Shutting down the running process on the server.
 - Clicking on the second symbol on the left side of the panel, the server will show all the running programs.
 - Then, Clicking on "SHUT DOWN" to shut down the running process.
 
