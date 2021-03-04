@@ -72,11 +72,11 @@ Running the script on a directory.
 ### Step 8:
 Checking the output directory.
 - Changing directory to the output folder specific from [Step 6](#Step-6), the directory tree would be like the following:
-    - */output*
-        - *2019-08-25 (created based on the date of input data)*
-            - */json*
-            - */metadata*
-            - *invalid_file.txt (It appears if error occurs in the specified input directory)*
+    - ***/output***
+        - ***2019-08-25 (created based on the date of input data)***
+            - ***/json***
+            - ***/metadata***
+            - ***invalid_file.txt (It appears if error occurs in the specified input directory)***
 
 ![jupyter_output](./assets/jupyter_output.png)
 
